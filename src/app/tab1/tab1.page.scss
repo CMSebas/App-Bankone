@@ -6,7 +6,7 @@ background: #1F2233;
  /* Establece una altura máxima */
   overflow-y: auto; /* Agrega una barra de desplazamiento vertical si es necesario */
   width: 100%;
-  padding: 1rem; /* Agrega un poco de espacio alrededor del contenido */
+  
   box-sizing: border-box;
 }
 
@@ -75,6 +75,7 @@ background: linear-gradient(
   position: relative;
   overflow: hidden;
   margin-top: 1rem;
+  margin-top: 0.5rem;
    }
 
 .butBeg{
