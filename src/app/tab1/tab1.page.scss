@@ -39,7 +39,7 @@ background: #1F2233;
 }
 
 .frame1{
- float: left;
+ float: right;
  width: 3.625rem;
  height: 3.5rem;
  
@@ -79,7 +79,7 @@ background: linear-gradient(
 
 .butBeg{
   background-color: #FEB35F;
-  margin-top: 1rem;
+  margin-top: 0.5rem;
   border-radius: 1rem;
   margin-left: 1.5rem;
   background: linear-gradient(181deg, #FEB35F 0.52%, #FE4998 99.49%);
@@ -215,10 +215,11 @@ background: linear-gradient(
   border-image-slice: 1;
   width: 15%;
   height: 60%;
-  position: absolute;
-  margin-left: 16rem;
+  float: right;
+  margin-left: 10rem;
   margin-top: 1rem;
-  overflow: hidden;
+  margin-right: 0.5rem;
+ 
 }
 ._45 {
   color: #ffffff;
